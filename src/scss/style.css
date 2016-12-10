@@ -1,0 +1,53 @@
+body{
+background-image: url('../public/background.jpg'); 
+color: white;
+}
+header{
+    width: 100%;
+}
+.glyphicon-book:before {
+    content: "\e043";
+    color: cornflowerblue;
+}
+nav{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.search{
+    position: initial;
+    color: black;
+}
+.search:hover{
+    background: lightseagreen;
+}
+.table-responsive {
+    background: gray;
+    width: 80%;
+    left: 10%;
+    top: 25%;
+    min-height: .01%;
+    overflow-x: auto;
+    position: absolute;
+}
+th{
+    text-align: center;
+    color: black;
+}
+tr{
+    text-align: center;
+}
+td:hover{
+    color: lightseagreen;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background: #363434;
+    text-align: center;
+    width: 100%;
+}

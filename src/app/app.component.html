@@ -1,0 +1,23 @@
+
+<header>
+  <h3><p class="webSiteTitle">Book Store <span class="glyphicon glyphicon-book"></span></p></h3>
+</header>
+
+<nav>
+	<a [routerLink]="['/']">
+    Home
+  </a>
+  |
+	<a [routerLink]="['/book']">
+    Book
+  </a>
+</nav>
+
+<main>
+	<router-outlet></router-outlet>
+</main>
+
+
+<footer>
+  © Copyright ArthurB 2016
+</footer>
